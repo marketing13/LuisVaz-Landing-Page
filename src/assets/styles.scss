@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .isloading {
+    @apply animate-skeleton bg-skeleton-gradient bg-400;
+  }
+
+  .container {
+    @apply mx-auto max-w-5xl;
+  }
+}
+
+.golden-bg {
+  background: linear-gradient(90deg, #aa9055, #d7bf76, #9a8550, #e1c87e);
+}
+
+.golden-bg-xp {
+  background: linear-gradient(90deg, #b07912, #d7b74c, #f1e478);
+}
+
+.bg-clip {
+  background: linear-gradient(90deg, #aa9055, #d7bf76, #9a8550, #e1c87e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-clip-xp {
+  background: linear-gradient(90deg, #b07912, #d7b74c, #f1e478);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+
+  50% {
+    transform: translatey(-20px);
+  }
+
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+.float {
+	animation: float 2s ease-in-out infinite;
+}
