@@ -7,7 +7,7 @@
       </button>
     </div>
     <div>
-      *Seus dados estão protegidos. Respeitamos a sua privacidade.
+      Seus dados estão protegidos. Respeitamos a sua privacidade.
     </div>
   </div>
 </template>
