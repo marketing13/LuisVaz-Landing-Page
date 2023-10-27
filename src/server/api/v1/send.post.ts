@@ -57,7 +57,6 @@ export default defineEventHandler(async (event) => {
         ],
       },
     });
-    console.log("teste")
     return { message: "Sucesso!" };
   } catch (err) {
     return sendError(
