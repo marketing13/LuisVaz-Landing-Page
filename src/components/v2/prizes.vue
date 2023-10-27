@@ -30,7 +30,7 @@
           MASTER VAZ 2.0
         </div>
         <div>
-          È a sua chance de ebrilhar e levar para casa uma
+          É a sua chance de brilhar e levar para casa uma
           bolada em dinheiro!
         </div>
       </div>
