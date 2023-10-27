@@ -20,8 +20,8 @@
       </div>
       <div class="text-4xl max-w-3xl text-center mx-auto">
         Não deixe passar essa
-        <b>oportunidade unica</b> de aprender
-        a operar na pratica, se divertir e ainda ganhar prêmios incríveis!
+        <b>oportunidade única</b> de aprender
+        a operar na prática, se divertir e ainda ganhar prêmios incríveis!
       </div>
       <div class="text-xl max-w-3xl text-center mx-auto">
         Não importa se você é um novato querendo aprender ou um profissional experiente, todos são bem-vindos a
@@ -46,7 +46,7 @@
             </nuxt-link>
           </div>
           <div class="text-sm">
-            *Seus dados estão protegidos. Respeitamos a sua privacidade.
+            Seus dados estão protegidos. Respeitamos a sua privacidade.
           </div>
         </div>
       </div>

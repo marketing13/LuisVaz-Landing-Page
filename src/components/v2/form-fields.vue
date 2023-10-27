@@ -19,7 +19,7 @@
     <div class="flex items-center gap-3">
       <Icon name="V2Calendar" />
       <span>
-        Dia 28 de outubro até dia 1° de novembro
+        Do dia 07 à 12 de novembro
       </span>
     </div>
     <div>

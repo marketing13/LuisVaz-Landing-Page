@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   app: {
     head: {
-      title: "Luís Vaz",
+      title: "Luis Vaz",
       meta: [
         {
           name: "description",

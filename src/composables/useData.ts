@@ -271,8 +271,8 @@ export const useXpData = () => ({
 
 const whatisv2 = [
   `O Torneio <b>MASTER VAZ 2.0</b> será uma competição voltada para iniciantes no mercado financeiro que querem aprender a operar na prática, com os melhores especialistas do mercado e ainda concorrer a prêmios incríveis.`,
-  `Serão 5 dias de verdadeira imersão no mundo do trading, onde você terá acesso à técnicas poderosas e a um aprendizado de altíssimo nível, com mentorias exclusivas de operações ao vivo.`,
-  `Nos dias 28 de outubro à 01 de novembro ocorrerão mentorias gratuitas ao vivo com operações para melhor aprendizado de todos.`,
+  `Serão 5 dias de verdadeira imersão no mundo do trading, onde você terá acesso à técnicas poderosas e a um aprendizado de altíssimo nível, com aulas exclusivas de operações ao vivo.`,
+  `Nos dias 07 à 12 de novembro ocorrerão aulas gratuitas ao vivo com operações para melhor aprendizado de todos.`,
 ];
 
 const whyv2 = [
