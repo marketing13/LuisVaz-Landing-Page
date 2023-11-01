@@ -319,3 +319,46 @@ export const useV2Data = () => ({
   prizes: prizesv2,
   rules: rulesv2
 });
+const whatisv2ES = [
+  `O Torneio <b>MASTER VAZ 2.0</b> sera una competencia enfocada en traders iniciantes en el mercado financiero que quieren aprender practicando, con los mejores especialistas del mercado y acceder a premios increíbles.`,
+  `Será 5 días de verdadera inmersión en el mundo del trading donde usted tendrá acceso a técnicas poderosas y un aprendizaje de altísimo nivel con mentorías exclusivas de operaciones en vivo .`,
+  `En los días 07 a 12 de de noviembre tendrá mentorías gratuitas en vivo con operaciones para mejor aprendizaje de todos.`,
+];
+
+const whyv2ES = [
+  `Usted va a desarrollar sus habilidades de trading en un ambiente competitivo y divertido.`,
+  `Podrá gana premios exclusivos en dinero y trofeos personalizados.`,
+  `Aprenda con los mejores especialistas del mercado financiero.`,
+  `Networking con otros traders iniciantes y profesionales.`
+]
+
+const whov2ES = [
+  `A <b>MASTER VAZ 2.0</b> es para todo aquel que quiere operar practicando con técnicas poderosas y un aprendizaje de alto nivel.`,
+  `Para quien quiere entrar en contacto con otros traders, compartir dudas, ideas y experiencias.`,
+  `Para quien quiere divertirse y desafiarse a sí mismo, participando de una competencia saludable y estimulante en las que desarrollara sus habilidades y conocimiento`,
+  `Para usted que desea desarrollarse como trader, aprender de los errores y los éxitos y mejorar su desempeño y confianza.`,
+  `Para quien quiere ganar dinero y reconocimiento, teniendo la chance de llevar a casa premios y un trofeo personalizado de <b>MASTER VAZ 2.0</b>.`
+]
+
+const ctav2ES = [
+  'Grupo exclusivo de Whatsapp donde podrás consultar dudas y compartir experiencias con otros participantes..',
+  '¡Tutoría en vivo durante el torneo, con valiosas estrategias y consejos!'
+]
+
+
+const rulesv2ES = [
+  `El vencedor sera definido en base al porcentaje de su ganancia y no al valor en sí;`,
+  `Realizar operaciones diarias y asistir a todas las mentorías durante el torneo;`,
+  `Enviar el registro completo de todas las operaciones con el resultado final del torneo. valor inicial, valor final e ID de cuenta de operaciones;`,
+  `Depósitos realizados durante el torneo serán descontados del percentual final de la banca;`,
+  `El vencedor deverá seguir a luis vaz en Instagram y en Youtube;`,
+  `Los 5 ganadores deberán grabar un video relatando la experiencia en el torneo.`,
+]
+
+export const useV2DataES = () => ({
+  whatisES: whatisv2ES,
+  whyES: whyv2ES,
+  whoES: whov2ES,
+  ctaES: ctav2ES,
+  rulesES: rulesv2ES
+});

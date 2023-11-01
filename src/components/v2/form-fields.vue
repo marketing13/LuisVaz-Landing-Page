@@ -1,6 +1,11 @@
 <template>
   <div class="grid gap-3">
     <label class="grid">
+      <div class="absolute top-0 right-0 m-4">
+        <button class="golden-bg-xp px-4 py-3 font-black rounded-2xl text-lg text-center text-black"
+        @click="changeLanguage('es')">Traducir al español
+      </button>
+    </div>
       <span class="mb-1"><span v-if="nomeError && isTouched" class="bg-red-500 px-1 rounded-md">{{
         nomeError }}</span></span>
       <input v-model="state.nome" placeholder="Nome" type="text" class="text-black rounded-sm p-3">
@@ -90,6 +95,11 @@ const trigger = async () => {
       const toast = useToast();
       toast.error('Ocorreu um erro ao enviar dados')
     };
+  }
+}
+const changeLanguage = (language: string) => {
+  if (language === 'es') {
+    window.location.href = 'MasterVazES';
   }
 }
 </script>
